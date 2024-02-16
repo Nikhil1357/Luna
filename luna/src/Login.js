@@ -17,7 +17,8 @@ const LoginContext = createContext();
       Name:input,
     }
     console.log(ob);
-    axios.post("/login",ob).then((response) => {
+    axios.post("/login",ob)
+    .then((response) => {
       console.log(response.data);
       if(response.data==="Success")
       {
@@ -56,7 +57,7 @@ const LoginContext = createContext();
   <input
   className='userinput'
   onChange={(event)=>setinput(event.target.value)}
-  type="text" id="fname" name="fname"/>
+    type="text" id="fname" name="fname"/>
   
   <input
   className='navlink submit'

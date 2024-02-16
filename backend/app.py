@@ -21,7 +21,7 @@ x = datetime.datetime.now()
 @app.route('/openai',methods=['POST'])
 def openaiapi():
 
-    openai.api_key = "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"
+    openai.api_key = "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"
     
 
 

@@ -9,8 +9,8 @@
     padding: 4vh;
     padding-left: 6vw;
     padding-right:6vw;
-
-    
+    display: flex;
+    flex-direction: column;
 }
 .entrance .trans
 {
@@ -41,11 +41,11 @@
     /* color:blue; */
     /* float: left; */
 }
-.entrance ul li{
+/* .entrance ul li{
 
     float: left;
     
-}
+} */
 .entrytext
 {
     color: aliceblue;
